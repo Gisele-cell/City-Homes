@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images\homes.jpg" style="width:100px;height:100px;border-radius:12%">
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Agents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'times new roman';
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Top Navigation Bar */
+        .topnav {
+            background-color: black;
+            position: fixed;
+            width: 100%;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            top: 0;
+            z-index: 1;
+        }
+
+        .topnav h1 {
+            margin: 0; /* Remove default margin */
+			font-size: 25px;
+        }
+
+        
+
+        .topnav a {
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+        .sidenav {
+            height: 100%;
+            position: relative;
+            top: 300px;
+            width: 200px;
+            position: fixed;
+            background-color: black;
+            padding-top: 60px;
+            top: 0;
+        }
+
+        .sidenav a {
+            padding: 15px 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: background 0.3s;
+            position: relative;
+            top: 50px;
+        }
+
+        .sidenav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            margin-left: 220px;
+            margin-top: 60px;
+            padding: 20px;
+            width: calc(100% - 220px);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to bottom, #f0f0f0, #808080, #333333);
+            color: black;
+        }
+
+        header h1 {
+            font-size: 20px;
+        }
+
+        header p {
+            font-size: 15px;
+        }
+
+        .agents-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .agent-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .agent-card img {
+            border-radius: 10%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .agent-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .agent-card p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .agent-card p strong {
+            font-weight: bold;
+        }
+		footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+			top: 50px;
+            width: 100%;
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="topnav">
+        <h1>&#9733;Our Agents</h1>
+        <div class="nav-links">
+		    <a href="index.html">Home</a>
+            <a href="contact.html">Contacts</a>
+            <a href="assignments.html">Assignements</a>
+            
+        </div>
+    </div>
+
+    <!-- Side Navigation Bar -->
+    <div class="sidenav">
+        <a href="for rent.html">For Rent</a>
+        <a href="for sale.html">For Sale</a>
+        <a href="About Us.html">About Us</a>
+        <a href="agents.html">Our Agents</a>
+       
+    </div>
+
+    <!-- Main content area -->
+    <div class="main-content">
+        <header>
+            <h1>Meet Our Agents</h1>
+            <p>Our dedicated agents are here to help you find your dream home.</p>
+        </header>
+
+        <section class="agents-container">
+            <div class="agent-card">
+                <img src="our agents\1.jpg" alt="Agent 1">
+                <h2>Jane Doe</h2>
+                <p>Real Estate Expert</p>
+                <p><strong>Email:</strong> jane.doe@example.com</p>
+                <p><strong>Phone:</strong> +250 788 900 600 </p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\6.jpg" alt="Agent 2">
+                <h2>John Smith</h2>
+                <p>Luxury Property Specialist</p>
+                <p><strong>Email:</strong> john.smith@example.com</p>
+                <p><strong>Phone:</strong> +250 788 200 400</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\2.jpg" alt="Agent 3">
+                <h2>Sarah Lee</h2>
+                <p>Residential Consultant</p>
+                <p><strong>Email:</strong> sarah.lee@example.com</p>
+                <p><strong>Phone:</strong> +250 788 100 800</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\7.jpg" alt="Agent 4">
+                <h2>Michael Brown</h2>
+                <p>Commercial Property Specialist</p>
+                <p><strong>Email:</strong> michael.brown@example.com</p>
+                <p><strong>Phone:</strong> +250 788 490 321</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\3.jpg" alt="Agent 5">
+                <h2>Lisa White</h2>
+                <p>First-Time Buyer Consultant</p>
+                <p><strong>Email:</strong> lisa.white@example.com</p>
+                <p><strong>Phone:</strong> +250 788 453 567</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\8.jpg" alt="Agent 6">
+                <h2>David Green</h2>
+                <p>Property Investment Advisor</p>
+                <p><strong>Email:</strong> david.green@example.com</p>
+                <p><strong>Phone:</strong> +250 788 974 295</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\4.jpg" alt="Agent 7">
+                <h2>Emily Davis</h2>
+                <p>Luxury Property Consultant</p>
+                <p><strong>Email:</strong> emily.davis@example.com</p>
+                <p><strong>Phone:</strong> +250 788 305 799</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\9.jpg" alt="Agent 8">
+                <h2>Chris Johnson</h2>
+                <p>Property Management Specialist</p>
+                <p><strong>Email:</strong> chris.johnson@example.com</p>
+                <p><strong>Phone:</strong> +250 788 453 222</p>
+            </div>
+
+            <div class="agent-card">
+                <img src="our agents\5.jpg" alt="Agent 9">
+                <h2>Jessica Taylor</h2>
+                <p>Rental Property Consultant</p>
+                <p><strong>Email:</strong> jessica.taylor@example.com</p>
+                <p><strong>Phone:</strong> (555) +250 788 500 000</p>
+            </div>
+        </section>
+    </div>
+	
+	<footer>
+	<div class="logo">
+            <img src="images\homes.jpg" style="width:100px;height:100px;border-radius:12%">
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><img src="images\icons\fb.png" style="width:50px;height:50px;" alt="Facebook"></a>
+            <a href="https://www.instagram.com/gisele.ineza/profilecard/?igsh=MXF2cDRwZWZzM2FxaA=="><img src="images\icons\ig.png" style="width:50px;height:50px;" alt="Instagram"></a>
+		<p>Where City Living Meets Comfort</p>
+        <p>&copy; 2024 City Homes</p>
+    </footer>
+</body>
+</html>

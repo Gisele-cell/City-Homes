@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images\homes.jpg" style="width:100px;height:100px;border-radius:12%">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houses For Sale</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'times new roman';
+            background: linear-gradient(to bottom, #f0f0f0, #808080, #333333);
+            color: #333;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+		
+		.side-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            padding-top: 80px; /* Ensure it's below the header */
+            z-index: 1000; /* Ensures it stays behind the header */
+        }
+
+        .side-nav a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .side-nav a:hover {
+            background-color: #575757;
+        }
+		
+
+        .intro {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .listings {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+           
+        }
+
+        .house {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            margin: 10px;
+        }
+
+        .house img {
+            width: 100%;
+            height: auto;
+        }
+
+        .contact-link{
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+		.more-link {
+		    background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 5px;
+		}
+
+        .contact-link:hover {
+            background-color: #45a049;
+        }
+		.more-link:hover{
+		    background-color: skyblue;
+		}
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>&#9733; Houses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="for rent.html">For Rent</a></li>
+                <li><a href="for sale.html">For Sale</a></li>
+				<li><a href="About Us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+
+
+    <section class="intro">
+        <h2>Explore Our Listings Of Houses</h2>
+        <p>We offer a wide range of apartments for rent in different locations, sizes, and price ranges. Browse through the listings to find your next home!</p>
+    </section>
+
+    <section class="listings">
+        <div class="house">
+            <img src="for sale\new\1.jpeg" alt="House 1">
+            <h3>Elysium Estates</h3>
+            <p>Price: $450,000</p>
+            <p>Location: Downtown City</p>
+            <p>Features: 5 bedrooms, 5.5 bathrooms, modern kitchen, spacious living, garden, parking space.</p>
+			
+            <a href="contact.html" class="contact-link">Contact</a>
+           
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\2.jpeg" alt="House 2">
+            <h3>Serenity Manor</h3>
+            <p>Price: $348,000</p>
+            <p>Location: Suburban Area</p>
+            <p>Features: 4 bedrooms, 4 bathroom, modern kitchen, spacious living room, garage.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+           
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\3.jpeg" alt="House 3">
+            <h3>Luxury Villa by the Beach</h3>
+            <p>Price: $500,000</p>
+            <p>Location: Beachfront</p>
+            <p>Features: 4 bedrooms, 3 bathrooms, private pool, ocean view, large garden,spacious living room, parking space.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\4.jpeg" alt="House 4">
+            <h3>Majestic Heights</h3>
+            <p>Price: $289,800</p>
+            <p>Location: Mountain Area</p>
+            <p>Features: 4 bedrooms, 3 bathroom, spacious living room, grand kitchen,fireplace, scenic views.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+          
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\5.jpeg" alt="House 5">
+            <h3>Havenwood House</h3>
+            <p>Price: $345,500</p>
+            <p>Location: Urban Center</p>
+            <p>Features: 4 bedrooms, 3 bathrooms, spacious living room, grand kitchen balcony, gym access.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\6.jpeg" alt="House 6">
+            <h3>Eternal Elegance</h3>
+            <p>Price: $432,900</p>
+            <p>Location: Residential Area</p>
+            <p>Features: 5 bedrooms, 4.5 bathrooms, backyard, spacious living room, grand kitchen, close to schools.</p>
+			
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\7.jpeg" alt="House 7">
+            <h3>Golden Oasis</h3>
+            <p>Price: $356,700</p>
+            <p>Location: Parkside Area</p>
+            <p>Features: 4 bedrooms, 3.5 bathrooms, large backyard, spacious living room, grand kitchen, close to public transport.</p>
+			
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\8.jpeg" alt="House 8">
+            <h3>Noble Crest</h3>
+            <p>Price: $321,200</p>
+            <p>Location: Central City</p>
+            <p>Features: 4 bedrooms, 2.5 bathrooms, spacious living room, grand kitchen, rooftop terrace, garage.</p>
+	
+            <a href="contact.html" class="contact-link">Contact</a>
+           
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\9.jpeg" alt="House 9">
+            <h3>Celestial Heights</h3>
+            <p>Price: $320,500</p>
+            <p>Location: Countryside</p>
+            <p>Features: 5 bedrooms, 4 bathrooms, spacious living room, grand kitchen, large fields, barn, peaceful setting.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+          
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\10.jpeg" alt="House 10">
+            <h3>Harmony Estates</h3>
+            <p>Price: $434,800</p>
+            <p>Location: Downtown High Rise</p>
+            <p>Features: 3 bedrooms, 3 bathrooms, spacious living room, grand kitchen, large terrace, modern amenities.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\11.jpeg" alt="House 11">
+            <h3>Dawnstar Manor</h3>
+            <p>Price: $367,200</p>
+            <p>Location: City Center</p>
+            <p>Features: 2 bedrooms, 2 bathrooms, open floor plan, close to shops.</p>
+			
+            <a href="contact.html" class="contact-link">Contact</a>
+          
+        </div>
+
+        <div class="house">
+            <img src="for sale\new\12.jpeg" alt="House 12">
+            <h3>Starlight Palace</h3>
+            <p>Price: $800,000/month</p>
+            <p>Location: Lakeside Area</p>
+            <p>Features: 5 bedrooms, 5.5 bathroom, spacious living room, grand kitchen,private dock, nature trails.</p>
+		
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo">
+            <img src="images\homes.jpg" style="width:100px;height:100px;border-radius:12%">
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><img src="images\icons\fb.png" style="width:50px;height:50px;" alt="Facebook"></a>
+            <a href="https://www.instagram.com/gisele.ineza/profilecard/?igsh=MXF2cDRwZWZzM2FxaA=="><img src="images\icons\ig.png" style="width:50px;height:50px;" alt="Instagram"></a>
+		<p>Where City Living Meets Comfort</p>
+        <p>&copy; 2024 City Homes</p>
+    </footer>
+</body>
+</html>
